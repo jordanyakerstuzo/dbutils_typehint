@@ -4,7 +4,6 @@ from dbutils_typehint.secrets import Secrets
 from dbutils_typehint.widgets import Widgets
 
 
-class DBUtils:
-    fs = FS()
-    secrets = Secrets()
-    widgets = Widgets()
+fs: FS
+secrets: Secrets
+widgets: Widgets
